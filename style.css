@@ -1,0 +1,37 @@
+.quote{
+    color: green;
+}
+
+a[href*="https"]{
+    color: red;
+}
+.list >li:last-child a{
+    background-color: green;
+}
+
+ul + p{
+    font-size: 26px;
+} 
+
+.text-box >h3:first-child{
+    color: pink;
+}
+.text-box #greycol{
+    color:grey;
+}
+.text-box  div p{
+    color:red;
+}
+.text-box > div ~ p{
+    color:green;
+}
+.text-box .yellow{
+    color:yellow;
+}
+
+.bg-box{
+    background-clip:border-box;
+    height: 100vh;
+    background: url('lamp-png-0.png') left top/auto 5em repeat-x, url('Ёжик.png') left top/100px 100px repeat-y, url('58eb07b830eab15b56162788.png') right top/100px 100px repeat-y,url('grass-png-images-pictures-transparent-28.png') left bottom/auto 10em repeat-x, url('pole-zelen-trava-dom-derevya.jpeg') center center/ auto auto no-repeat;
+    background-color: green;
+}
